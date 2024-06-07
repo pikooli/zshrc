@@ -1,4 +1,4 @@
-
+```
 export ZSH="$HOME/.oh-my-zsh"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -76,3 +76,4 @@ else
     fi
 fi
 unset __conda_setup
+```
