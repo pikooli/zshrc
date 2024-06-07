@@ -1,7 +1,4 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -11,11 +8,6 @@ export PATH=$PATH:/Users/pascalzhang/.pyenv/versions/3.9.10c/lib/python3.9/site-
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
@@ -84,4 +76,3 @@ else
     fi
 fi
 unset __conda_setup
-# <<< conda initialize <<<
